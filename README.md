@@ -33,7 +33,7 @@ source venv/bin/activate
 
 3. Install required packages:
 ```bash
-pip install geopandas matplotlib numpy shapely
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -52,14 +52,20 @@ LocationName: DD°MM'SS.S"N DD°MM'SS.S"E
 ```
 Example:
 ```
-StorJævel: 59°17'20.3"N 11°16'12.4"E
-grytekanten: 59°16'57.8"N 11°14'10.7"E
+Fisk1: 59°16'57.8"N 11°14'10.7"E
+Fisk2: 59°16'55.2"N 11°15'31.8"E
+Fisk3: 59°17'12.5"N 11°15'22.1"E
+Fisk4: 59°17'05.9"N 11°14'45.3"E
+Fisk5: 59°17'18.7"N 11°14'26.9"E
+Fisk6: 59°16'65.4"N 11°15'18.2"E
+Fisk7: 59°17'25.1"N 11°14'35.4"E
 ```
 
 ## File Structure
 - `main.py` - Main script for generating the map
 - `coordinates.txt` - File for storing fishing spot coordinates
 - `isesjo_kart.geojson` - GeoJSON file containing lake depth data
+- `requirements.txt` - List of Python package dependencies
 
 ## Notes
 - The map uses a color gradient to represent different depths
