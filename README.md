@@ -2,6 +2,16 @@
 
 An interactive visualization tool for displaying the depth contours of Isesjøen lake and marking fishing spots.
 
+![Isesjøen Depth Map Example](isesjo_kart.png)
+
+## Map Visualization
+The map shows:
+- Depth contours in shades of blue (lighter = shallower, darker = deeper)
+- Land areas in forest green
+- Fishing spots marked with red dots and labels
+- Depth scale in meters
+- Interactive features like zoom and pan
+
 ## Features
 - Displays depth contours with a color-coded visualization
 - Allows marking and labeling of fishing spots
