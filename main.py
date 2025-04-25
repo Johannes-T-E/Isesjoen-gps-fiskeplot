@@ -154,12 +154,13 @@ def main():
     
     if coordinates:
         print(f"Found {len(coordinates)} locations in coordinates file")
-        
-        # Create and display the map
-        fig, ax = create_map(coordinates)
-        plt.show()
     else:
-        print("No valid coordinates found in coordinates file")
+        print("No coordinates found in coordinates file")
+        coordinates = []  # Use empty list instead of None
+    
+    # Create and display the map
+    fig, ax = create_map(coordinates)
+    plt.show()
 
 if __name__ == "__main__":
     main() 
