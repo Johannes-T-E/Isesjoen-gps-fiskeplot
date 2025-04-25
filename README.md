@@ -26,8 +26,8 @@ The map shows:
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
-cd isesjo-map
+git clone https://github.com/Johannes-T-E/Isesjoen-gps-fiskeplot
+cd Isesjoen-gps-fiskeplot
 ```
 
 2. Create and activate a virtual environment (recommended):
