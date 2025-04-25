@@ -1,0 +1,12 @@
+# Ignore specific folders
+old/
+gjedde/
+map.py
+# Ignore specific files
+get_coordinates_from_image.py
+
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*$py.class 
+.venv/
